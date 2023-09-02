@@ -1,0 +1,20 @@
+
+.toolbar {
+    --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
+    --color: #ffffff; /* Cambia el color del texto a blanco */
+    --font-size: 20px; /* Ajusta el tamaño de la fuente */
+  }
+
+
+  .btn-register{
+    --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
+    --color: #ffffff; /* Cambia el color del texto a blanco */
+    --font-size: 16px; /* Ajusta el tamaño de la fuente */
+    --sborder-radius: 10px; /* Ajusta la esquina redondeada */
+    margin-top: 10%; /* Mueve el botón hacia abajo un 10% de su altura */
+  }
+
+  .label-register{
+    --color: #531776dd;
+  }
+
