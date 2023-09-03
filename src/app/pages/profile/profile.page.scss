@@ -1,0 +1,20 @@
+.toolbar {
+    --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
+    --color: #ffffff; /* Cambia el color del texto a blanco */
+    --font-size: 20px; /* Ajusta el tamaño de la fuente */
+  }
+
+  .profile-photo{
+    position: relative;
+    left: 140px; /* Mueve la imagen 20px hacia la derecha */
+    top: 10px; /* Mueve la imagen 10px hacia abajo */
+  }
+
+
+  .centered-label {
+    text-align: center; /* Centra el texto horizontalmente */
+    --ion-text-center: center; /* Centra verticalmente el texto */
+  }
+
+  
+  

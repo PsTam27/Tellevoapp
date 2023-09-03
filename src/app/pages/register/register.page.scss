@@ -7,7 +7,7 @@
 
 
   .btn-register{
-    --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
+    --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
     --color: #ffffff; /* Cambia el color del texto a blanco */
     --font-size: 16px; /* Ajusta el tamaño de la fuente */
     --sborder-radius: 10px; /* Ajusta la esquina redondeada */
@@ -18,3 +18,9 @@
     --color: #531776dd;
   }
 
+  .link-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  }

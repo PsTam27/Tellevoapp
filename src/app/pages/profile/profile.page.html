@@ -1,0 +1,83 @@
+
+
+
+<ion-header>
+  <ion-toolbar class="toolbar">
+    <ion-buttons slot="start">
+      <ion-icon name="home" routerLink="/login"></ion-icon>
+    </ion-buttons>
+    <ion-title class="ion-text-center" color="light">
+      TeLlevoApp
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="menu"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-avatar class="profile-photo">
+      <img src="assets/profile.png" >
+    </ion-avatar>
+    <ion-card-header>
+      <ion-card-title>{{ usuario.nombre }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon name="mail" slot="start"></ion-icon>
+        <ion-label>Correo Electrónico:</ion-label>
+        <ion-text>-</ion-text>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="business" slot="start"></ion-icon>
+        <ion-label>Sede:</ion-label>
+        <ion-text>Viña del mar</ion-text>
+      </ion-item>
+    
+      <!-- Agrega más detalles del perfil aquí -->
+    </ion-card-content>
+  </ion-card>
+  <ion-item>
+    <ion-icon name="car" slot="start"></ion-icon>
+    <ion-label >Posees auto?:</ion-label>
+    <ion-radio-group [(ngModel)]="usuario.tieneAuto">
+      <ion-radio value="true" class="custom-radio">Sí</ion-radio>
+      <ion-radio style="margin-bottom: 10px;" value="false" class="custom-radio">No</ion-radio>
+    </ion-radio-group>
+  </ion-item>  
+
+ 
+  <ion-item class="ion-text-center ion-text-justify ion-text-wrap" style="margin-top: 10px; margin-bottom: 1px;">
+    En qué horario tienes disponibilidad y/o necesitas transporte?
+  </ion-item>
+    <ion-list [inset]="true">
+      <ion-item>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <ion-label>08:00 AM - 12:00 AM</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <ion-label>13:00 PM - 15:00 PM</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <ion-label>16:00 PM - 18:00 PM </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <ion-label>19:00 PM - 21:00 PM</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox slot="start"></ion-checkbox>
+        <ion-label>21:00 PM +</ion-label>
+      </ion-item>
+    </ion-list>
+
+  
+
+  
+  
+</ion-content>

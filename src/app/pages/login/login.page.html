@@ -2,15 +2,9 @@
 
 <ion-header>
   <ion-toolbar class="toolbar">
-    <ion-buttons slot="start">
-      <ion-icon name="home" routerLink="/login"></ion-icon>
-    </ion-buttons>
     <ion-title class="ion-text-center" color="light">
       TeLlevoApp
     </ion-title>
-    <ion-buttons slot="end">
-      <ion-icon name="menu"></ion-icon>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -22,7 +16,7 @@
       <h1 class="ion-text-center"><b>Inicio de Sesión</b></h1>
       <ion-row class="ion-align-items-center ion-justify-content-center">
         <ion-col size="auto">
-          <ion-img src="/assets/user.png" style="margin-bottom: 25px;" style="max-width: 40px; max-height: 40px; "></ion-img>
+          <ion-img src="/assets/user1.png" style="margin-bottom: 25px;" style="max-width: 40px; max-height: 40px; "></ion-img>
         </ion-col>
       </ion-row>      
     </ion-text>
@@ -37,10 +31,12 @@
       <ion-input clearInput [(ngModel)]="usuario.password" name="password" type="password" placeholder="Ingresa tu contraseña" required></ion-input>
     </ion-item>
     
-    <ion-button type="submit" expand="block" [disabled]="frmlog.invalid"  class="login-btn" style="margin-bottom: 20px; margin-top: 15px;">
+    <ion-button type="submit" routerLink="/profile" expand="block" [disabled]="frmlog.invalid"  class="login-btn" style="margin-bottom: 20px; margin-top: 15px;">
       Iniciar Sesión
     </ion-button>
     </form>
+
+    
     
     <ion-button expand="block" class="forgot-btn" href="forgot-password" style="margin-bottom: 20px;">
       Olvidé mi contraseña
@@ -52,7 +48,7 @@
     <p>Unete a nosotros hoy y se parte de esta comunidad!</p>
   </ion-text>
 
-  <ion-row class="ion-align-items-center ion-justify-content-center" routerLink="/about" >
+  <ion-row class="ion-align-items-center ion-justify-content-center" >
     <ion-col size="auto">
       <ion-img src="/assets/autogps.png" style="max-width: 340px; max-height: 320px; margin-top: -15px;"></ion-img>
     </ion-col>
