@@ -33,35 +33,36 @@
   --font-size: 20px; /* Ajusta el tamaño de la fuente */
 }
 
-
-.login-btn {
-  --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
-  --color: #ffffff; /* Cambia el color del texto a blanco */
-  --font-size: 16px; /* Ajusta el tamaño de la fuente */
-  --sborder-radius: 10px; /* Ajusta la esquina redondeada */
+.img-inicio{
+  max-width: 90%; // Ajusta el ancho de la imagen al 100% del contenedor
+  margin-top: 100px; // Mueve la imagen hacia abajo 20px
+  margin-left: auto; // Centra la imagen horizontalmente
+  margin-right: auto; // Centra la imagen horizontalmente
+  display: block; // Asegura que la imagen sea un elemento de bloque
 }
 
-.forgot-btn{
-  --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
-  --color: #ffffff; /* Cambia el color del texto a blanco */
-  --font-size: 16px; /* Ajusta el tamaño de la fuente */
-  --sborder-radius: 10px; /* Ajusta la esquina redondeada */
+.ion-text-center {
+  text-align: center; // Centra el texto horizontalmente
+  position: absolute; // Permite ajustar la posición verticalmente
+  font-size: 25px;
+  top: 20%; // Mueve el texto hacia el centro vertical de la página
+  left: 0; // Alinea el texto en el centro horizontal
+  right: 0; // Alinea el texto en el centro horizontal
+  transform: translateY(-50%); // Corrige la posición vertical
+  color: rgb(4, 4, 4);
 }
 
-.register-btn{
-  --background: #531776dd; /* Cambia el color de fondo a un tono de azul */
+.subtitulo {
+  font-size: 16px; /* Tamaño de fuente del subtitulo */
+  color: #1a1a1a; /* Color del texto del subtitulo */
+  margin-top: 30px; /* Espacio superior para separar el título del subtitulo */
+}
+
+.iniciar-btn {
+  margin-top: -30px;
+  --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
   --color: #ffffff; /* Cambia el color del texto a blanco */
   --font-size: 16px; /* Ajusta el tamaño de la fuente */
   --sborder-radius: 10px; /* Ajusta la esquina redondeada */
   
 }
-
-.label-usuario-login{
-  --color: #531776dd;
-}
-
-.label-password-login{
-  --color: #531776dd;
-}
-
-

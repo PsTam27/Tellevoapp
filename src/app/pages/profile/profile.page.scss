@@ -2,7 +2,15 @@
   --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
     --color: #ffffff; /* Cambia el color del texto a blanco */
     --font-size: 20px; /* Ajusta el tamaño de la fuente */
+    
   }
+
+  .menu-toolbar {
+    --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
+      --color: #ffffff; /* Cambia el color del texto a blanco */
+      --font-size: 20px; /* Ajusta el tamaño de la fuente */
+    }
+  
 
   .profile-photo{
     position: relative;
@@ -16,5 +24,22 @@
     --ion-text-center: center; /* Centra verticalmente el texto */
   }
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
   
+  .small-square-button {
+    --background: linear-gradient(to bottom, #531776, #761a59);
+    width: 60px; /* Ancho deseado */
+    height: 60px; /* Altura deseada */
+    padding: 0; /* Eliminar relleno interior */
+    border-radius: 0; /* Eliminar bordes redondeados */
+    text-align: center;
+    line-height: 60px; /* Centrar el texto verticalmente */
+    font-size: 14px; /* Tamaño de fuente deseado */
+    margin-right: 8px; /* Espacio entre botones (ajusta según sea necesario) */
+    margin: 15px auto; /* Agrega margen en la parte superior y centraliza horizontalmente */
+
+  }
   
