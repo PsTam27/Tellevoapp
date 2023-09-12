@@ -1,67 +1,53 @@
 
-
 <ion-header>
   <ion-toolbar class="toolbar">
-    <ion-buttons slot="start">
-      <ion-icon name="home" routerLink="/login"></ion-icon>
-    </ion-buttons>
     <ion-title class="ion-text-center" color="light">
       TeLlevoApp
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
+ <!-- Botón para volver -->
+ <ion-fab>
+  <ion-fab-button class="gradient-button button">
+    <ion-icon name="arrow-back" (click)="volver()"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
 
 
 <ion-content class="ion-padding">
-  <form #frmreg="ngForm">
-    <ion-text color="white" class="ion-text-center">
-      <h1><b>Registro de usuario</b></h1>
-    </ion-text>
+  <ion-card>
+    <ion-card-content>
+      <form #frmreg="ngForm">
+        <ion-text color="white" class="ion-text-center texto-register">
+          <h1><b>Registro de usuario</b></h1>
+        </ion-text>
+        <ion-item>
+          <ion-label position="floating" class="label-register">Correo Electronico</ion-label>
+          <ion-input clearInput type="email" placeholder="ejemplo@duocuc.cl" required></ion-input>
+        </ion-item>
 
-    <ion-item>
-      <ion-label position="floating" class="label-register">Rut</ion-label>
-      <ion-input clearInput type="text" placeholder="19.223.345-2" required></ion-input>
-    </ion-item>
+        <ion-item>
+          <ion-label position="floating" class="label-register">Nombre de usuario</ion-label>
+          <ion-input clearInput type="text" placeholder="Ingresa un nombre para tu usuario" required></ion-input>
+        </ion-item>
 
-    <ion-item>
-      <ion-label position="floating" class="label-register">Nombre</ion-label>
-      <ion-input clearInput type="text" placeholder="Ingresa ambos nombres" required></ion-input>
-    </ion-item>
+        <ion-item>
+          <ion-label position="floating" class="label-register">Contraseña</ion-label>
+          <ion-input clearInput type="text" name="password" type="password" placeholder="Ingresa una contraseña segura" required></ion-input>
+        </ion-item>
 
-    <ion-item>
-      <ion-label position="floating" class="label-register">Apellidos</ion-label>
-      <ion-input clearInput type="text" placeholder="Ingresa ambos apellidos" required></ion-input>
-    </ion-item>
+        <ion-item>
+          <ion-label position="floating" class="label-register">Confirmar contraseña</ion-label>
+          <ion-input clearInput type="text" name="password" type="password" placeholder="Ingresa tu contraseña nuevamente" required></ion-input>
+        </ion-item>
 
-    <ion-item>
-      <ion-label position="floating" class="label-register">Correo Electronico</ion-label>
-      <ion-input clearInput type="email" placeholder="ejemplo@duocuc.cl" required></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="floating" class="label-register">Nombre de usuario</ion-label>
-      <ion-input clearInput type="text" placeholder="Ingresa un nombre para tu usuario" required></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="floating" class="label-register">Contraseña</ion-label>
-      <ion-input clearInput type="text" placeholder="Ingresa una contraseña segura" required></ion-input>
-    </ion-item>
-    
-    <ion-item>
-      <ion-label position="floating" class="label-register">Confirmar contraseña</ion-label>
-      <ion-input clearInput type="text" name="password" type="password" placeholder="Ingresa tu contraseña nuevamente" required></ion-input>
-    </ion-item>
-
-    <ion-button expand="block" class="btn-register" href="login">
-      Registrarme
-    </ion-button>
-    
-    <div class="link-about">
-      <a href="/about">Sobre TeLlevoApp</a>
-    </div>
-
-
-  </form>
+        <ion-button expand="block" class="btn-register" href="login" [disabled]="!frmreg.valid">
+          Registrarme
+        </ion-button>
+        
+      </form>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+

@@ -10,7 +10,29 @@
       --color: #ffffff; /* Cambia el color del texto a blanco */
       --font-size: 20px; /* Ajusta el tamaño de la fuente */
     }
+<<<<<<< Updated upstream
   
+=======
+
+
+    /* Estilo para el menú cuando esté abierto */
+    ion-menu::part(container){
+      border-radius: 20px 0px 0px 20px; /* Ajusta el radio del borde según tu preferencia */
+      box-shadow: -4px 0px 16px rgba(255, 0, 255, 0.18); /* Cambiamos la posición de la sombra a la izquierda */
+    }
+
+    ion-menu::part(backdrop) {
+      background-color: rgba(1, 1, 1, 0.5);
+    }
+
+    ion-card {
+      border-radius: 53px;
+      box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1);
+      width: 342px;
+      margin-top: 106px;
+    }
+    
+>>>>>>> Stashed changes
 
   .profile-photo{
     position: relative;
@@ -24,6 +46,16 @@
     --ion-text-center: center; /* Centra verticalmente el texto */
   }
 
+<<<<<<< Updated upstream
+=======
+  ion-card .list-ios {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 36px;
+    margin-bottom: -166px;
+  }
+
+>>>>>>> Stashed changes
   .button-container {
     display: flex;
     justify-content: center;
@@ -31,6 +63,7 @@
   
   .small-square-button {
     --background: linear-gradient(to bottom, #531776, #761a59);
+<<<<<<< Updated upstream
     width: 60px; /* Ancho deseado */
     height: 60px; /* Altura deseada */
     padding: 0; /* Eliminar relleno interior */
@@ -43,3 +76,40 @@
 
   }
   
+=======
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    margin-right: 8px;
+    margin: 20px 15px;
+
+  }
+  
+
+  /* Estilos para los iconos */
+  ion-item {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente en el medio */
+    align-items: center; /* Centrar verticalmente en el medio */
+  }
+
+   /* texto bajo iconos*/
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 278px;
+  }
+
+  .button-text {
+    text-align: center;
+    font-size: 16px; 
+    margin-left: -4px;
+  }
+
+
+>>>>>>> Stashed changes

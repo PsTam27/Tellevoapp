@@ -1,32 +1,106 @@
 
-.toolbar {
-  --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
-    --color: #ffffff; /* Cambia el color del texto a blanco */
-    --font-size: 20px; /* Ajusta el tamaño de la fuente */
-  }
+.custom-background {
+  background-color: #f2f2f2; /* Puedes ajustar el color gris según tus preferencias */
+}
 
 
-.login-btn {
-    --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
-    --color: #ffffff; /* Cambia el color del texto a blanco */
-    --font-size: 16px; /* Ajusta el tamaño de la fuente */
-    --sborder-radius: 10px; /* Ajusta la esquina redondeada */
+  /* tellevo */
+  h1 {
+  font-size: 22px;
+  margin-top: 125px;
+  }
+
+  .formulario-login {
+    margin-top: 36px;
   }
   
-  .forgot-btn{
-    --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
-    --color: #ffffff; /* Cambia el color del texto a blanco */
-    --font-size: 16px; /* Ajusta el tamaño de la fuente */
-    --sborder-radius: 10px; /* Ajusta la esquina redondeada */
+  
+  .foto-inicio {
+    max-width: 34%;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: -124px;
+  }
+
+  /* iniciar sesioón */
+  .label-iniciar{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 36px;
+    color: black;
   }
   
-  .register-btn{
+
+  .login-btn {
     --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
     --color: #ffffff; /* Cambia el color del texto a blanco */
     --font-size: 16px; /* Ajusta el tamaño de la fuente */
-    --sborder-radius: 10px; /* Ajusta la esquina redondeada */
-    
+    --sborder-radius: 8px; /* Ajusta la esquina redondeada */
+    padding: 5px 21px;
   }
+
+  /* Estilos para los iconos */
+  ion-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .person-icon,
+  .lock-icon {
+    margin-right: 10px; 
+    margin-bottom: -28px;
+    color: #531776;
+  }
+
+  ion-card {
+    border-radius: 53px;
+    box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra a la tarjeta */
+   
+  }
+
+  
+  .forgot-link {
+    text-decoration: none;
+    color: #4f4e4e;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 29px;
+    margin-top: 27px;
+    display: inline-block;
+    float: right;
+    line-height: 1;
+  }
+
+  /* cuenta nueva */
+  h4 {
+  font-size: 15px;
+  margin-bottom: 14px;
+  margin-top: 69px;
+  }
+
+  .texto-unete {
+    font-size: 13px;
+  }
+  
+  
+  .register-link {
+    text-decoration: none;
+    color: #4f4e4e;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 29px;
+    margin-top: -6px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+  }
+  
+  
+  
 
   .label-usuario-login{
     --color: #531776dd;
@@ -40,4 +114,4 @@
   }
 
 
-
+  

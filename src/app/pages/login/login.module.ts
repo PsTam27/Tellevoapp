@@ -20,3 +20,4 @@ import { ComponentsModule } from '../../components/components.module';
   declarations: [LoginPage]
 })
 export class LoginPageModule {}
+

@@ -5,24 +5,62 @@
     --font-size: 20px; /* Ajusta el tamaño de la fuente */
   }
 
+     /* Estilo para el botón redondo */
+/* Estilo para el botón redondo con fondo de gradiente lineal */
+.gradient-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 80%;
+  --background: linear-gradient(to bottom, #531776, #761a59);
+  --color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 694px;
+  right: 294px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  h1 {
+    font-size: 18px;
+    margin-top: 21px;
+    color: black;
+    }
+
 
   .btn-register{
-    --background: linear-gradient(to bottom, #531776, #761a59); /* Fondo degradado morado */
-    --color: #ffffff; /* Cambia el color del texto a blanco */
-    --font-size: 16px; /* Ajusta el tamaño de la fuente */
-    --sborder-radius: 10px; /* Ajusta la esquina redondeada */
-    margin-top: 10%; /* Mueve el botón hacia abajo un 10% de su altura */
+    --background: linear-gradient(to bottom, #531776, #761a59);
+    --color: #ffffff;
+    --font-size: 16px;
+    --sborder-radius: 8px;
+    padding: 56px 21px;
+    margin-bottom: -20px;
+    margin-top: -33px;
   }
 
   .label-register{
     --color: #531776dd;
   }
 
-  .link-about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  ion-card{
+    border-radius: 53px;
+    width: 92%;
+    height: 64%;
+    margin-top: 122px;
   }
+
+  .link-about {
+    text-decoration: none;
+    color: #4f4e4e;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 29px;
+    margin-top: -7px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+  }
+  
 
   

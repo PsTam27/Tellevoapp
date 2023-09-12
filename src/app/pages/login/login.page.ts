@@ -9,12 +9,15 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['./login.page.scss'],
 })
 
+
+
 export class LoginPage implements OnInit {
   usuario = {
     username: '',
     password: ''
   }
 
+  
   constructor(private router: Router, private alertController: AlertController) { }
 
   ngOnInit() { }
