@@ -39,14 +39,11 @@ const routes: Routes = [
     path: 'start',
     loadChildren: () => import('./pages/start/start.module').then( m => m.StartPageModule)
   },
-<<<<<<< Updated upstream
-=======
   {
     path: 'pay',
     loadChildren: () => import('./pages/pay/pay.module').then( m => m.PayPageModule)
   },
   
->>>>>>> Stashed changes
   
 
   
