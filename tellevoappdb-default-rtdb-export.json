@@ -1,0 +1,124 @@
+{
+    "registros": [
+        {
+            "ID": 1,
+            "Nombre": "Juan",
+            "ApellidoPaterno": "Pérez",
+            "ApellidoMaterno": "Gómez",
+            "Email": "juan.perez@email.com",
+            "Celular": "123-456-7890"
+        },
+        {
+            "ID": 2,
+            "Nombre": "María",
+            "ApellidoPaterno": "López",
+            "ApellidoMaterno": "García",
+            "Email": "maria.lopez@email.com",
+            "Celular": "987-654-3210"
+        },
+        {
+            "ID": 3,
+            "Nombre": "Carlos",
+            "ApellidoPaterno": "Martínez",
+            "ApellidoMaterno": "Rodríguez",
+            "Email": "carlos.martinez@email.com",
+            "Celular": "555-123-7890"
+        },
+        {
+            "ID": 4,
+            "Nombre": "Luis",
+            "ApellidoPaterno": "González",
+            "ApellidoMaterno": "Hernández",
+            "Email": "luis.gonzalez@email.com",
+            "Celular": "333-111-9999"
+        },
+        {
+            "ID": 5,
+            "Nombre": "Ana",
+            "ApellidoPaterno": "Ramírez",
+            "ApellidoMaterno": "Sánchez",
+            "Email": "ana.ramirez@email.com",
+            "Celular": "777-888-5555"
+        },
+        {
+            "ID": 6,
+            "Nombre": "Pedro",
+            "ApellidoPaterno": "Díaz",
+            "ApellidoMaterno": "Luna",
+            "Email": "pedro.diaz@email.com",
+            "Celular": "222-333-4444"
+        },
+        {
+            "ID": 7,
+            "Nombre": "Laura",
+            "ApellidoPaterno": "Vargas",
+            "ApellidoMaterno": "Rojas",
+            "Email": "laura.vargas@email.com",
+            "Celular": "999-888-7777"
+        },
+        {
+            "ID": 8,
+            "Nombre": "Roberto",
+            "ApellidoPaterno": "Soto",
+            "ApellidoMaterno": "Paredes",
+            "Email": "roberto.soto@email.com",
+            "Celular": "111-222-3333"
+        },
+        {
+            "ID": 9,
+            "Nombre": "Isabel",
+            "ApellidoPaterno": "Torres",
+            "ApellidoMaterno": "Jiménez",
+            "Email": "isabel.torres@email.com",
+            "Celular": "444-555-6666"
+        },
+        {
+            "ID": 10,
+            "Nombre": "Miguel",
+            "ApellidoPaterno": "Gómez",
+            "ApellidoMaterno": "Pérez",
+            "Email": "miguel.gomez@email.com",
+            "Celular": "777-999-2222"
+        },
+        {
+            "ID": 11,
+            "Nombre": "Carla",
+            "ApellidoPaterno": "Hernández",
+            "ApellidoMaterno": "López",
+            "Email": "carla.hernandez@email.com",
+            "Celular": "333-666-1111"
+        },
+        {
+            "ID": 12,
+            "Nombre": "Javier",
+            "ApellidoPaterno": "Sánchez",
+            "ApellidoMaterno": "Martínez",
+            "Email": "javier.sanchez@email.com",
+            "Celular": "555-777-9999"
+        },
+        {
+            "ID": 13,
+            "Nombre": "Rosa",
+            "ApellidoPaterno": "Ramírez",
+            "ApellidoMaterno": "González",
+            "Email": "rosa.ramirez@email.com",
+            "Celular": "666-555-4444"
+        },
+        {
+            "ID": 14,
+            "Nombre": "Pablo",
+            "ApellidoPaterno": "Luna",
+            "ApellidoMaterno": "Díaz",
+            "Email": "pablo.luna@email.com",
+            "Celular": "888-777-6666"
+        },
+        {
+            "ID": 15,
+            "Nombre": "Silvia",
+            "ApellidoPaterno": "Jiménez",
+            "ApellidoMaterno": "Vargas",
+            "Email": "silvia.jimenez@email.com",
+            "Celular": "222-444-8888"
+        }
+    ]
+}
