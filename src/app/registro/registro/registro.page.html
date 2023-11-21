@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<img class="logo" src="../../../assets/logo/logo2a.png" alt="">
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      ¡Crea tu Cuenta y Únete a Esta Comunidad!
+    </ion-card-header>
+    <ion-card-content>
+      <form [formGroup]="formularioReg" (ngSubmit)="registrarse()">
+        <ion-item>
+          <ion-label color="rgb(145, 216, 134)" position="floating">Correo</ion-label>
+          <ion-input type="text" class="form-control" formControlName="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input type="password"  class="form-control" formControlName="password"></ion-input>
+        </ion-item>
+
+        <ion-button id="button-inner" style="display:flex;align-items:center;justify-content:center"
+          type="submit">Registrarme</ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-footer>
+    <p id="cuenta">¿Ya tienes una cuenta? </p>
+    <a id="volver-inicio" (click)="irLog()">Volver a inicio de sesión</a>
+  </ion-footer>
+</ion-content>

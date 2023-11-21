@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <img class="logo" src="../../../assets/logo/logo2a.png" alt="">
+
+  <ion-card>
+    <img class="tarjeta" src="../../../assets/icon/visa.png" alt="">
+    <ion-card-content>
+      **** **** **** 1293
+    </ion-card-content>
+    <ion-item lines="none" class="ion-item-custom">
+      <ion-icon name="trash" class="trash-icon" slot="end" color="danger"></ion-icon>
+    </ion-item>
+  </ion-card>
+
+  <ion-card>
+    <img class="tarjeta" src="../../../assets/icon/visa.png" alt="">
+    <ion-card-content>
+      **** **** **** 1293
+    </ion-card-content>
+    <ion-item lines="none" class="ion-item-custom">
+      <ion-icon name="trash" class="trash-icon" slot="end" color="danger"></ion-icon>
+    </ion-item>
+  </ion-card>
+
+  <ion-button id="button-inner" [routerLink] = "['/perfil']"> Volver a perfil </ion-button>
+  <a class="pago-agregar" [routerLink]="('/perfil')">Agregar nuevo</a>

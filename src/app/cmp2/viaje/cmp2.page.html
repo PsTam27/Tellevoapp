@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar class="custom-toolbar">
+    <ion-title class="ion-text-center title-text">Detalle viajes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-content>
+      <ion-card color="medium">
+        <ion-card-header class="ion-text-center">
+          <ion-title>Viajes realizados:</ion-title>
+        </ion-card-header>
+        <ion-item *ngFor="let viaje of viajes">
+          <ion-label>{{viaje.startAddress}}</ion-label>
+          <button (click)="verDetalle(viaje)">Detalle</button>
+        </ion-item>
+      </ion-card>
+
+      
+</ion-content>
+
+<ion-button (click)="salir()"  id="button-inner" style="display:flex;align-items:center;justify-content:center" type="submit"
+class="boton-volver-viaje">Volver a inicio</ion-button>
+
+

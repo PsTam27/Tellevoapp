@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start" color="primary"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<img class="logo" src="../../../assets/logo/logo2a.png" alt="">
+
+
+<ion-content style="background-color: --ion-primary;">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{email}}</ion-card-title>
+      <ion-card-subtitle>Usuario Administrador</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      Acá podrás modificar y agregar datos a tu perfil de usuario.
+
+      <ion-item>
+        <ion-label>Ciudad</ion-label>
+        <ion-select placeholder="Selecciona la ciudad" [(ngModel)]="ciudad">
+          <ion-select-option value="ciudad1">Viña del Mar</ion-select-option>
+          <ion-select-option value="ciudad2">Quilpué</ion-select-option>
+          <ion-select-option value="ciudad3">Concón</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Sede de Estudio</ion-label>
+        <ion-select placeholder="Selecciona la sede" [(ngModel)]="sede">
+          <ion-select-option value="sede1">Viña del Mar</ion-select-option>
+          <ion-select-option value="sede2">Valparaíso</ion-select-option>
+          <ion-select-option value="sede3">Valparaíso 2</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Disponibilidad de Horario</ion-label>
+        <ion-select multiple="true" placeholder="Selecciona la disponibilidad" [(ngModel)]="horario" (ionChange)="horarioSeleccionado($event)">
+          <ion-select-option value="1">08:00AM - 12:00PM</ion-select-option>
+          <ion-select-option value="2">13:00PM - 17:00PM</ion-select-option>
+          <ion-select-option value="3">18:00PM - 22:00PM</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <a class="pago" [routerLink]="('/lista-pago')">Metodos de pago</a>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size = "2"></ion-col>
+        <ion-col size = "8">
+          <ion-button id="button-inner" style="display:flex;align-items:center;justify-content:center" [routerLink] = "['/']" (click) = "logOut()"> Cerrar Sesion </ion-button>
+        </ion-col>
+        <ion-col size = "2"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button id="button-inner2" style="display:flex;align-items:center;justify-content:center" [routerLink] = "['/listar']"> Crear viaje </ion-button>
+</ion-content>
